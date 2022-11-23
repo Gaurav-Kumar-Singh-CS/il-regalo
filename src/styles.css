@@ -3,3 +3,11 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .container{
+    background: #fff;
+    width: calc(100% - 250px);
+    height: -webkit-calc(100% - 70px);;
+    position: absolute;
+    margin-left: 250px;
+}

@@ -1,25 +1,25 @@
 <div class="sidenav">
-            <a href="/dashboard" class="logo">
+            <a href="/metrics" class="logo">
                 <img src="../../../assets/images/logo.png" class="logo-img">
                 <img src="../../../assets/images/logo.png" class="logo-icon">
             </a>
             <ul class="nav-links">
-                <li><a href="#"><fa-icon [icon]="faHomeUser"></fa-icon><p>Dashboard</p></a></li>
-                <li><a href="#"><fa-icon [icon]="faUsers"></fa-icon><p>Staff</p></a></li>
-                <li><a href="#"><fa-icon [icon]="faUserCheck"></fa-icon><p>Guests</p></a></li>
+                <li><a href="/metrics"><fa-icon [icon]="faHomeUser"></fa-icon><p>Dashboard</p></a></li>
+                <li><a href="/staff"><fa-icon [icon]="faUsers"></fa-icon><p>Staff</p></a></li>
+                <li><a href="/guest"><fa-icon [icon]="faUserCheck"></fa-icon><p>Guests</p></a></li>
                 <li><a href="/room"><fa-icon [icon]="faDoorClosed"></fa-icon><p>Rooms</p></a></li>
-                <li><a href="#"><fa-icon [icon]="faBed"></fa-icon><p>Reservations</p></a></li>
-                <li><a href="#"><fa-icon [icon]="faDollarSign"></fa-icon><p>Billing</p></a></li>
+                <li><a href="/reservation"><fa-icon [icon]="faBed"></fa-icon><p>Reservations</p></a></li>
+                <li><a href="/billing"><fa-icon [icon]="faDollarSign"></fa-icon><p>Billing</p></a></li>
                 <div class="active"></div>
             </ul>
         </div>
         <div class="top-nav">
             <nav>
+            <div class="title">
+                <h3>{{title}}</h3>
+            </div>
             <ul>
                 <li><a href="#"><fa-icon [icon]="faGear"></fa-icon></a></li>
             </ul>
             </nav>
-        </div>
-        <div class="container">
-            <app-room></app-room>
         </div>

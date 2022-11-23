@@ -11,14 +11,6 @@
     background: #2a695e;
 }
 
-.container{
-    background: wheat;
-    width: calc(100% - 250px);
-    height: -webkit-calc(100% - 70px);;
-    position: absolute;
-    margin-left: 250px;
-}
-
 .sidenav{
     width: 250px;
     height: 100%;
@@ -83,6 +75,13 @@ nav ul li a:hover{
 .nav-links li a fa-icon{
     font-size: 22px;
     margin-right: 20px;
+}
+
+.title{
+    float: left;
+    margin-left: 250px;
+    margin-top: 22px;
+    color: #fff;
 }
 
 .active{
