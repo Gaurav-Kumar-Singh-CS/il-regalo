@@ -11,6 +11,14 @@
     background: #2a695e;
 }
 
+.container{
+    background: wheat;
+    width: calc(100% - 250px);
+    height: -webkit-calc(100% - 70px);;
+    position: absolute;
+    margin-left: 250px;
+}
+
 .sidenav{
     width: 250px;
     height: 100%;
@@ -19,6 +27,30 @@
     top: 0;
     left: 0;
     padding: 20px 30px;
+}
+
+.top-nav{
+    background: #143f46;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 27px;
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
 }
 
 .logo{

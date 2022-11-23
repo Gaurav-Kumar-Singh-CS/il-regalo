@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {faHomeUser, faUsers, faUserCheck, faBed, faDollarSign, faDoorClosed} from '@fortawesome/free-solid-svg-icons';
+import {faHomeUser, faUsers, faUserCheck, faBed, faDollarSign, faDoorClosed, faGear} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-dashboard',
@@ -13,4 +13,5 @@ export class DashboardComponent {
   faBed = faBed;
   faDollarSign = faDollarSign;
   faDoorClosed = faDoorClosed;
+  faGear = faGear;
 }
